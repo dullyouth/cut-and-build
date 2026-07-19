@@ -1,0 +1,13 @@
+{
+  "name": "cut-and-build",
+  "version": "2.0.0",
+  "description": "Standalone PWA fitness tracker — cut, strength, running. On-device storage, zero dependencies.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "icons": "node scripts/gen-icons.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
